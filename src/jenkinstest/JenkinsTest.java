@@ -18,4 +18,14 @@ public class JenkinsTest {
         System.out.println("Hello, JENKINS!");
     }
     
+    
+    
+    /**
+     * Metoda, którą chcę testować.
+     * @param a 
+     */
+    public static int foo(int a) {
+        return -a;
+    }
+    
 }
